@@ -1,0 +1,28 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "magazine ",
+            "group": "magazine",
+            "database": "./database/magazine.db"
+        },
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "previewLimit": 50,
+            "server": "ltrjulsvzaelifxvgaxj.supabase.co",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "magazine",
+            "group": "magazine",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "Vntiger8269#"
+        }
+    ]
+}
